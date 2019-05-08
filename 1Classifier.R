@@ -1,7 +1,7 @@
 libs <- c("plyr", "data.table", "dplyr", 'ggplot2', 'readr', 'randomForest', 'ROCR', 'tidyr', 'caret', 'DMwR')
 lapply(libs, require, character.only = TRUE)
 
-date='12Apr'
+date='18nov18’
 
 setwd(paste0("~/Desktop/cover-crop/Classifier/",date))
 

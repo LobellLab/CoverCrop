@@ -1,5 +1,5 @@
 
-var datestr = '12Apr'
+var datestr = '18-nov-18’
 var rname =1; //repeat per region
 
 

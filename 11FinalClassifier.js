@@ -1,11 +1,11 @@
 var cdl = ee.ImageCollection("USDA/NASS/CDL"),
     gddraster = ee.Image("users/cseifert/gddraster");
     
-var datestring = '12Apr'
+var datestring = ’18-nov-18’
     
 //Gather all training data
-var trainingmaster = ee.FeatureCollection("ft:4ZYWR0iM”);
-var test = ee.FeatureCollection("ft:E9Mw2P10b”);
+var trainingmaster = ee.FeatureCollection("ft:1tC_tbjNesKuS19czLpgvWHwvsb4PaJlrXXCnqqkx”);
+var test = ee.FeatureCollection("ft:1SnCwL8Mm9C8Ywse6xaB6AnE18ekxuw3WpWmIPznl”);
 
 //Make istates composite
 var states = ee.FeatureCollection('ft:17aT9Ud-YnGiXdXEJUyycH2ocUqreOeKGbzCkUw');

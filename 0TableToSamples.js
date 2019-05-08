@@ -1,10 +1,10 @@
 var cdl = ee.ImageCollection("USDA/NASS/CDL"),
     gddraster = ee.Image("users/cseifert/gddraster");
 
-var datestr='12Apr';
+var datestr='18Nov18’;
 
 //Master here is master polygon feature table
-var master = ee.FeatureCollection("ft:1Cjc8BJozJQ_0eeFebxymszVS99jvuqDw-Ne_dE6J");
+var master = ee.FeatureCollection("ft:1_qjZlWuOV5wEHTmObdac6KtbEl-CogbTdHeNlKDX");
 
 /*POLYGON-LEVEL SAMPLING*/
 function getSamples(img, regions, scale, factor, npx, seed, doexport, fname, fprefix){

@@ -1,4 +1,4 @@
-var datestr = '12Apr';
+var datestr = '18-nov-18’;
 
 var soy = ee.Image("projects/lobell-lab/scym_srlandsat_gcviqlty_srmodisblend_pyv1f_usa_soybean_img"),
     oldcorn = ee.Image("projects/lobell-lab/scym_srlandsat_gcviqlty_srmodisblend_pyv1f_usa_maize_img"),

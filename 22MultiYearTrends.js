@@ -1,5 +1,5 @@
 //load appropriate images
-var datestr = '12Apr';
+var datestr = '18-nov-18’;
 
 var C2007 = ee.Image("projects/lobell-lab/CoverCrop/0PlantFreezeCCclassifier"+datestr+"all2007GDD0"),
     C2008 = ee.Image("projects/lobell-lab/CoverCrop/0PlantFreezeCCclassifier"+datestr+"all2008GDD0"),

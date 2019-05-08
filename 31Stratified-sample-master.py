@@ -4,7 +4,7 @@ import ee
 # Initialize EE using auth
 ee.Initialize()
 
-datestr = '12Apr';
+datestr = '18-nov-18’;
 crop = 'corn'
 
 counties = ee.FeatureCollection('ft:18Ayj5e7JxxtTPm1BdMnnzWbZMrxMB49eqGDTsaSp')
